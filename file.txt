@@ -1,0 +1,7 @@
+npm install -g typescript //installare ts
+tsc -v //versione ts
+
+//DOPO OGNI MODIFICA
+tsc main.ts //creare file js
+node main.js //stampare file js
+tsc main --watch //salva da solo in js
